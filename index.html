@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Памятники Новгорода</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main style="margin-bottom: 100px;">
+        <div id="myCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img class="bd-placeholder-img" style="object-fit: cover; height: 100vh;" src="images/kremlin.png" width="100%" height="80vh" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>Новгородский Кремль</h1>
+                  <p>Главная достопримечательность Великого Новгорода, привлекающая огромное множество туристов.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="bd-placeholder-img" style="object-fit: cover; height: 100vh;" src="images/thousand_of_russia.png" width="100%" height="80vh" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>Памятник Тысячилетия России</h1>
+                  <p>Монумент воздвигнутый в честь тысячелетнего юбилея летописного призвания варягов</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img class="bd-placeholder-img" style="object-fit: cover; height: 100vh;" src="images/start.png" width="100%" height="80vh" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Въездной знак</h1>
+                  <p>Въездной знак Великиго Новгорода</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="container marketing pt-5">
+          <div class="row mb-5">
+            <div class="col-lg-4">
+              <img class="rounded-circle mb-5" src="images/lenin2.png" width="250" height="250" style="object-fit: cover; height: 250px; width: 250px;">
+              <h2>Памятник В.И.Ленину</h2>
+              <p>Это один из первых памятников В.И. Ленину установленных в Советском Союзе. Его открытие состоялось 7 ноября 1926 года...</p>
+              <p><a class="btn btn-lg btn-primary" href="lenin.html">Подробнее</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle mb-5" src="images/nevski.png" width="250" height="250" style="object-fit: cover; height: 250px; width: 250px;">
+              <h2>Памятник Александру Невскому</h2>
+              <p>Александр Невский стал одним из символов освободительной борьбы, отражения агрессии с Запада...</p>
+              <p><a class="btn btn-lg btn-primary" href="nevski.html">Подробнее</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle mb-5" src="images/fire.png" width="250" height="250" style="object-fit: cover; height: 250px; width: 250px;">
+              <h2>Мемориал "Вечный огонь"</h2>
+              <p>До 1965 года на месте современного мемориала существовало два братских захоронения. В одном из них...</p>
+              <p><a class="btn btn-lg btn-primary" href="fire.html">Подробнее</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+          <hr class="featurette-divider">
+          <div class="mt-5 mb-5">
+            <h2 class="mb-5">Карта достопримечательностей</h2>
+          </div>
+          <div style="display: flex; width: 100%;" class="mb-5">
+            <iframe style="height: 700px; width: 1100px; margin: auto;" src="https://yandex.ru/map-widget/v1/?um=constructor%3A740fd928d3ba959125fe9938624ea6f45fdfe6f2cc77af274337cc6297d9f3db&amp;source=constructor" width="1100" height="700" frameborder=""></iframe>
+          </div>
+          <hr class="featurette-divider">
+          <div class="row featurette mt-5 mb-5">
+            <div class="col-md-7">
+              <h2 class="featurette-heading pb-4">Софийский собор</h2>
+              <p class="lead">Софийский собор или Собор Святой Софии — главный православный храм Великого Новгорода, созданный в 1045–1050 годах, кафедральный собор Новгородской митрополии. На протяжении столетий — духовный центр Новгородской республики. Наиболее ранний из древнерусских храмов, сохранившихся на современной территории России...</p>
+              <p><a class="btn btn-lg btn-primary mt-5" href="sophia.html">Подробнее</a></p>
+            </div>
+            <div class="col-md-5">
+              <img class="" style="object-fit: cover;" src="images/sopi1.png" width="500" height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+          </div>
+          <hr class="featurette-divider">
+          <div class="row featurette mt-5 mb-5">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading pb-4">Памятник "Тысячелетие России"</h2>
+              <p class="lead">«Тысячелетие России» — монумент, воздвигнутый в Новгороде в 1862 году в честь тысячелетнего юбилея летописного призвания варягов, с которым традиционно связывается начало русской государственности. Авторами проекта памятника являются скульпторы Михаил Микешин, Иван Шредер и архитектор Виктор Гартман…</p>
+              <p><a class="btn btn-lg btn-primary mt-5" href="thousand.html">Подробнее</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="" style="object-fit: cover;" src="images/thousand_of_russia1.png" width="500" height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+          </div>
+          <hr class="featurette-divider">
+          <div class="row featurette mt-5 mb-5">
+            <div class="col-md-7">
+              <h2 class="featurette-heading pb-4">Ярославово дворище</h2>
+              <p class="lead">Историческое сооружение в Великом Новгороде, на Ярославовом дворище, построенное в конце XVIII века. Сохранившийся фрагмент здания Гостиного двора, разрушенного во время Великой Отечественной войны. Объект культурного наследия России федерального значения...</p>
+              <p><a class="btn btn-lg btn-primary mt-5" href="dvorishe.html">Подробнее</a></p>
+            </div>
+            <div class="col-md-5">
+                <img class="" style="object-fit: cover;" src="images/dvor1.png" width="500" height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">            
+            </div>
+          </div>
+        </div>
+    </main>
+    <div class="container">
+      <footer class="py-3 my-4 border-top">
+        <p class="text-center text-body-secondary">© 2024 Великий Новгород, "Достопримечательности Великого Новгорода"</p>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
