@@ -13,12 +13,15 @@
   <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 <body>
   <div class="container mt-5">
     <h1 class="text-center mb-5">Памятник В.И.Ленину</h1>
     <div style="display: flex; width: 100%;" class="mb-5">
-      <img src="images/lenin3.png" style="height: 500px; width: 800px; margin: auto;" alt="">
+      <a href="images/lenin3.png" data-fancybox="gallery" style="display: flex; width: 100%;">
+        <img src="images/lenin3.png" style="height: 500px; width: 800px; margin: auto;" alt="">
+      </a>
     </div>
     <p class="text-justify">
         Это один из первых памятников В.И. Ленину установленных в Советском Союзе. Его открытие состоялось 7 ноября 1926 года. Монумент выполнен по проекту скульптора Николая Шильникова и архитектора Дмитрия Осипова. Во время немецкой оккупации скульптура Ленина была утрачена (вывезена в Германию). 29 апреля 1956 года на сохранившемся постаменте, на котором остались следы пуль и осколков снарядов, была установлена новая скульптура выполненная Д.П. Шварцем...
@@ -43,8 +46,10 @@
     </div>
 
     <div style="display: flex; width: 100%;" class="mb-5">
+      <a href="images/lenin5.png" data-fancybox="gallery" style="display: flex; width: 100%;">
         <img src="images/lenin5.png" style="height: 500px; width: 800px; margin: auto;" alt="">
-      </div>
+      </a>
+    </div>
 
     <div class="mt-5 mb-5">
         <h2 class="mb-3">Описание памятника</h2>
@@ -54,7 +59,9 @@
     </div>
 
     <div style="display: flex; width: 100%;" class="mb-5">
+      <a href="images/lenin4.png" style="display: flex; width: 100%;" data-fancybox="gallery">
         <img src="images/lenin4.png" style="height: 500px; width: 800px; margin: auto;" alt="">
+      </a>
     </div>
     <a href="index.html" class="btn btn-primary" style="margin-bottom: 150px;">Вернуться на главную</a>
   </div>
@@ -66,5 +73,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 </html>
